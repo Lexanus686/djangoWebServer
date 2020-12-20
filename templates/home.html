@@ -1,0 +1,10 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-12 mb-3">
+       <h6 class="text-center"> Прiвiт {{ user.first_name }} {{ user.last_name }}! </h4>
+    </div>
+</div>
+{% endblock %}
